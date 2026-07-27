@@ -1,7 +1,13 @@
 aid: generalproximity
-name: Generalproximity
-description: Generalproximity is a company surfaced as a portfolio company of felicis and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: General Proximity
+description: General Proximity is a biotechnology company pioneering next-generation
+  "proximity medicines" that control biological processes by inducing proximity between
+  molecular targets. Its multi-target OMNITAC platform is used to discover and advance
+  novel therapeutics, including an oncology collaboration with Daiichi Sankyo. The company
+  is backed by investors including Felicis and Y Combinator, and has drawn investment
+  from Freemind and Daewoong Pharmaceutical. This is a company profile in the API Evangelist
+  network; General Proximity is a drug-discovery company and does not publish a public API,
+  developer portal, or machine-readable API artifacts at this time.
 url: https://raw.githubusercontent.com/api-evangelist/generalproximity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,31 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: biotechnology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6733cc83f163165c57c972df/6768b7b8dd575365a0592904_logo_square%20256.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Proximity Medicines
+- Oncology
+- Therapeutics
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://generalproximity.bio
+  url: https://www.generalproximity.bio
+- type: Blog
+  url: https://generalproximity.substack.com/
+- type: Twitter
+  url: https://x.com/proxbio
+- type: LinkedIn
+  url: https://www.linkedin.com/company/generalproximity/
+- type: Careers
+  url: https://www.generalproximity.bio/careers
+- type: News
+  url: https://www.generalproximity.bio/news
+- type: Team
+  url: https://www.generalproximity.bio/team
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
