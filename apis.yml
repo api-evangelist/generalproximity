@@ -9,6 +9,9 @@ description: General Proximity is a biotechnology company pioneering next-genera
   network; General Proximity is a drug-discovery company and does not publish a public API,
   developer portal, or machine-readable API artifacts at this time.
 url: https://raw.githubusercontent.com/api-evangelist/generalproximity/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This is a company profile in the API Evangelist network; General Proximity is a drug-discovery company and does not publish a public API, developer portal, or machine-readable API artifacts at this ti"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
